@@ -1,0 +1,4 @@
+protobuf==3.20.3
+grpcio==1.67.0
+pandas
+ollama
