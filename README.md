@@ -29,8 +29,8 @@ Il permet d'automatiser des analyses avancées, de générer des insights ou des
 ### 1. Clonez le dépôt
 
 ```bash
-git clone https://github.com/votre-utilisateur/ollama-qlik-advanced-analytics.git
-cd ollama-qlik-advanced-analytics
+git clone https://github.com/magikcypress/Ollama-serverside-extension.git
+cd Ollama-serverside-extension
 ```
 
 ### 2. Créez et activez un environnement virtuel
@@ -64,7 +64,7 @@ Assurez-vous qu’Ollama est lancé sur votre machine.
 ### 2. Exécuter un script d’analytics avancé
 
 ```bash
-python scripts/qlik_advanced_analytics.py --app "NomApplication" --sheet "NomFeuille" --model llama2
+python __main__.py
 ```
 
 Ce script :
